@@ -1,0 +1,48 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LangGraph dev server state
+.langgraph_api/
+
+# Local-only legacy assets (not referenced by any notebook or slide)
+archive/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+
+# Logs and large media
+*.log
+*.mp4
+*.mov
+*.avi
+
+# Artifacts created by running the notebooks
+test.txt
+notebooks/langgraph-multi-step/
+notebooks/lucas-test-local-agent/
+notebooks/memory-demo/
+notebooks/prebuilt-demo/
+notebooks/testing-multiple-calls/
+notebooks/funny-pancakes-recipes/
+notebooks/pancakes-are-better-than-waffles/
+notebooks/test-agent.txt
+
+# Course slides (kept local, not published)
+slides/
+
+# Original-author leftovers (kept local, not published)
+docs/oreilly_live_training_agents-cheatsheet.pdf
+notebooks/assets-resources/profile_pic.png
